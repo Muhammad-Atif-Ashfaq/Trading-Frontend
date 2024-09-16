@@ -1,0 +1,51 @@
+{
+  "env": {
+    "browser": true,
+    "es2021": true
+  },
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "plugin:react-hooks/recommended",
+    "plugin:react/jsx-runtime"
+  ],
+  "parserOptions": {
+    "ecmaVersion": 12,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  },
+  "plugins": ["react", "react-hooks", "import"],
+  "rules": {
+    "no-const-assign": "error",
+    "react/jsx-pascal-case": ["error"],
+    "indent": ["error", 2],
+    "space-before-blocks": ["error", "always"],
+    "space-before-function-paren": ["error", "always"],
+    "import/order": [
+      "error",
+      {
+        "groups": [["builtin", "external"], "internal", ["parent", "sibling", "index"]],
+        "newlines-between": "always"
+      }
+    ],
+    "import/newline-after-import": ["error", { "count": 1 }],
+    "camelcase": "error",
+    "comma-spacing": ["error", { "before": false, "after": true }],
+    "no-trailing-spaces": "error",
+    "react/prop-types": 0,
+    "func-call-spacing": ["error", "never"],
+    "semi-spacing": "error",
+    "no-duplicate-imports": "error",
+    "no-irregular-whitespace": "error",
+    "no-whitespace-before-property": "error",
+    "block-spacing": "error",
+    "no-unused-vars": "off" 
+  }
+}

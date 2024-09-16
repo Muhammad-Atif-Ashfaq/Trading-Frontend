@@ -1,0 +1,23 @@
+/* CSS for the button */
+.custom-button {
+    background-color: #1CAC70; /* Blue background color */
+    color: #ffffff; /* White text color */
+    padding: 4px 12px; /* Padding for the button */
+    border: none; /* Remove button border */
+    border-radius: 4px; /* Add border radius */
+    cursor: pointer; /* Show pointer cursor on hover */
+    margin-left: 10px;
+    margin-top: 20px;
+    margin-right: 10px;
+    box-sizing: border-box;
+    float: right;
+  }
+  
+  /* CSS for button hover effect */
+  .custom-button:hover {
+    background-color: #38a477; /* Darker blue background color on hover */
+  }
+  :where(.css-dev-only-do-not-override-1jx8akt).ant-table-wrapper .ant-table-selection {
+    position: relative;
+    display: block;
+}

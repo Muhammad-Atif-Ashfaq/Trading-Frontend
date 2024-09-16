@@ -1,0 +1,27 @@
+
+.ant-menu-item-selected {
+  background-color: transparent !important;
+  border-radius: unset !important;
+  border-color: rgb(28, 172, 112);
+  border-left-width: thick;
+}
+.ant-switch-inner{
+background-color:rgb(28, 172, 112); ;
+}
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 40px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+ 
+}

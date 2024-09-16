@@ -1,0 +1,101 @@
+/* TimePicker.css */
+
+.table-container {
+    position: relative;
+  }
+  
+  .select-day {
+    cursor: pointer;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    width: fit-content;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  .popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .popup-content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: 600px;
+  }
+  
+  .popup-content h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+  
+  .popup-content label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .popup-content input[type="time"] {
+    margin-bottom: 10px;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+  
+  .button-container button {
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+  }
+  
+  .button-container button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+    color: #666;
+  }
+  
+  .popup-content button {
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+  }
+  
+  .popup-content button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
